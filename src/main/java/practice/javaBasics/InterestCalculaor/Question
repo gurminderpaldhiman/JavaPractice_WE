@@ -1,0 +1,43 @@
+Write an interest calculator program that works as described in this example:
+
+John has $500 to invest. Sue knows of a mutual fund plan that pays 10% interest annually, compounded quarterly.
+That is, every three months, the principal is multiplied by 2.5% (the 10% annual rate divided by 4 because it is compounded 4 times per year)
+and the result is added to the principal.
+
+More generally, the new amount each quarter is equal to:
+CurrentBalance * (1 + (QuarterlyInterestRate / 100))
+
+REQUIREMENTS
+Make the program general; that is, it should prompt for the following inputs and use those inputs in the calculations.
+-The annual interest rate
+-The initial amount of principal
+-The number of years the money is to stay in the fund
+
+The output should include the following for each year:
+-The year number
+-The principal at the beginning of the year
+-The total amount of interest earned for the year
+-The principal at the end of the year
+
+SAMPLE PROGRAM OUTPUT
+How much do you want to invest? 500
+How many years are investing? 10
+What is the annual interest rate % growth? 10
+
+Calculating...
+Year 1:
+Began with $500.00
+Earned $51.91
+Ended with $551.91
+
+Year 2:
+Began with $551.91
+Earned $57.30
+Ended with $609.20
+
+Year 3:
+Began with $609.20
+Earned $63.24
+Ended with $672.44
+...
+
